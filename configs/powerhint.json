@@ -141,44 +141,68 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "1056000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "1017600"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWHystTriggerCount",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWHystLength",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWHistMemory",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWMinFreq",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "10322"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "GPUMinFreq",
-      "Duration": 500,
+      "Duration": 1500,
       "Value": "600000000"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "GPUBusMinFreq",
+      "Duration": 1500,
+      "Value": "5195"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "GPUForceClkOn",
+      "Duration": 1500,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "GPUForceRailOn",
+      "Duration": 1500,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "GPUIdleTimer",
+      "Duration": 1500,
+      "Value": "10000"
     },
     {
       "PowerHint": "LAUNCH",
