@@ -30,6 +30,11 @@
 # be added to search path for firmware loading
 firmware_directories /vendor/firmware_mnt/image/
 
+# White notification LED timer attributes are recreated when the timer trigger
+# is selected. Apply ownership on LED uevents, not only during early boot.
+/sys/devices/platform/soc/*/leds/white delay_on  0644 system system no_fnm_pathname
+/sys/devices/platform/soc/*/leds/white delay_off 0644 system system no_fnm_pathname
+
 # the DIAG device node is not world writable/readable.
 #engineering model adaptation
 /dev/diag                 0660   root     system
